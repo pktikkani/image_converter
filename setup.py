@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="imageOptimization",
+    name="image_converter",
     version="0.1.0",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
@@ -18,9 +18,9 @@ setup(
     description="A tool for optimizing images and converting to WebP format",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pktikkani/imageOptimization",
+    url="https://github.com/pktikkani/image_converter",
     project_urls={
-        "Bug Tracker": "https://github.com/pktikkani/imageOptimization/issues",
+        "Bug Tracker": "https://github.com/pktikkani/image_converter/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -34,5 +34,5 @@ setup(
         "Intended Audience :: Developers",
         "Topic :: Multimedia :: Graphics",
     ],
-    keywords="image, optimization, webp, conversion, image processing",
+    keywords="image, converter, webp, conversion, image processing",
 )

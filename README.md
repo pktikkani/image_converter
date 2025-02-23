@@ -1,18 +1,18 @@
-# imageOptimization
+# image_converter
 
 A Python package for optimizing images and converting them to WebP format.
 
 ## Installation
 
 ```bash
-pip install imageOptimization
+pip install image_converter
 ```
 
 ### Usage
 
 ```python
 
-from imageOptimization import ImageOptimizer
+from image_converter import ImageOptimizer
 
 # Create an optimizer instance
 optimizer = ImageOptimizer(quality=85)

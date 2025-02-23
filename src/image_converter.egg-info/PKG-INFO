@@ -1,12 +1,12 @@
 Metadata-Version: 2.2
-Name: imageOptimization
+Name: image_converter
 Version: 0.1.0
 Summary: A tool for optimizing images and converting to WebP format
-Home-page: https://github.com/pktikkani/imageOptimization
+Home-page: https://github.com/pktikkani/image_converter
 Author: Pavan Tikkani
 Author-email: pavan@prag-matic.com
-Project-URL: Bug Tracker, https://github.com/pktikkani/imageOptimization/issues
-Keywords: image,optimization,webp,conversion,image processing
+Project-URL: Bug Tracker, https://github.com/pktikkani/image_converter/issues
+Keywords: image,converter,webp,conversion,image processing
 Classifier: Programming Language :: Python :: 3
 Classifier: Programming Language :: Python :: 3.7
 Classifier: Programming Language :: Python :: 3.8
@@ -19,6 +19,7 @@ Classifier: Intended Audience :: Developers
 Classifier: Topic :: Multimedia :: Graphics
 Requires-Python: >=3.7
 Description-Content-Type: text/markdown
+License-File: LICENSE
 Requires-Dist: Pillow>=9.0.0
 Dynamic: author
 Dynamic: author-email
@@ -32,21 +33,21 @@ Dynamic: requires-dist
 Dynamic: requires-python
 Dynamic: summary
 
-# imageOptimization
+# image_converter
 
 A Python package for optimizing images and converting them to WebP format.
 
 ## Installation
 
 ```bash
-pip install imageOptimization
+pip install image_converter
 ```
 
 ### Usage
 
 ```python
 
-from imageOptimization import ImageOptimizer
+from image_converter import ImageOptimizer
 
 # Create an optimizer instance
 optimizer = ImageOptimizer(quality=85)
