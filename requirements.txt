@@ -1,0 +1,4 @@
+pillow
+build
+twine
+setuptools
