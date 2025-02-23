@@ -5,14 +5,14 @@ A Python package for optimizing images and converting them to WebP format.
 ## Installation
 
 ```bash
-pip install image_converter
+pip install prag-matic-image-converter
 ```
 
 ### Usage
 
 ```python
 
-from image_converter import ImageOptimizer
+from prag-matic-image-converter import ImageOptimizer
 
 # Create an optimizer instance
 optimizer = ImageOptimizer(quality=85)

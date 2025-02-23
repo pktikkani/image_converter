@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="image_converter",
+    name="prag-matic-image-converter",
     version="0.1.0",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
