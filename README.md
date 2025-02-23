@@ -12,16 +12,16 @@ pip install prag-matic-image-converter
 
 ```python
 
-from prag-matic-image-converter import ImageOptimizer
+from image_converter import ImageConverter
 
 # Create an optimizer instance
-optimizer = ImageOptimizer(quality=85)
+optimizer = ImageConverter(quality=85)
 
 # Convert a single image
 optimizer.convert_to_webp('input.jpg', 'output.webp')
 
 # Convert all images in a folder
-optimizer.batch_optimize('input_folder', 'output_folder')
+optimizer.batch_convert('input_folder', 'output_folder')
 
 ```
 
